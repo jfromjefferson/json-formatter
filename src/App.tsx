@@ -6,10 +6,9 @@ export function App() {
 	const [valid, setValid] = useState(true)
 
 	function handleContent(text: string) {
-		const textTemp = text.replace(/'/g, '"')
 
 		try {
-			const textInJSON = JSON.parse(textTemp!)
+			const textInJSON = JSON.parse(text)
 			const textFormatted = JSON.stringify(textInJSON, null, 2)
 
 			setContent(syntaxHighlight(textFormatted))
