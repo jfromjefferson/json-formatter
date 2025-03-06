@@ -56,7 +56,7 @@ export function App() {
 					spellCheck={false}
 					style={{ border: !valid ? '1px solid #9c3333' : '' }}>
 				</pre>
-				<div className="resume-area">
+				<div className="summary-area">
 					<Viewer data={valid ? jsonContent : {}} />
 				</div>
 			</div>

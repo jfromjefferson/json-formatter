@@ -11,13 +11,15 @@ main {
         display: flex;
         flex-direction: column;
         width: 49.5%;
+        border: 1px solid rgba(255, 255, 255, 0.5);
 
         pre {
             height: 100%;
             overflow: auto;
+            border-bottom: 1px solid rgba(90, 90, 90, 0.5);
         }
 
-        .resume-area {
+        .summary-area {
             margin-left: 15px;
             height: 100%;
             overflow: auto;
