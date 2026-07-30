@@ -1,14 +1,9 @@
 :root {
-  line-height: 1.7;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --text-muted: #6c7086;
 }
 
 * {
@@ -19,7 +14,12 @@
   font-family: 'JetBrains Mono', monospace;
 }
 
-#root, body, html, main {
+#root, body, html {
   height: 100%;
+  background: #1e1e2e;
+  color: #cdd6f4;
 }
 
+body {
+  overflow: hidden;
+}

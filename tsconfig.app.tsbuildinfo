@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/Components/Viewer/index.tsx","./src/Components/XmlViewer/index.tsx","./src/utils/jsonFixer.ts","./src/utils/xmlParser.ts"],"version":"5.6.2"}
